@@ -15,3 +15,4 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 - 利用`Math.max()`直接寻找出数组中的最大值,无需遍历
 - 利用`贪心算法`获得局部的最优解
 - 利用`前缀积`实现从左到右/再从右到左的两次遍历实现相乘
+- 利用`fill(0, index)`在指定索引后填充元素`0`
