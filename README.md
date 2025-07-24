@@ -8,6 +8,7 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 
 - 欧几里得算法求最大公因数:`const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));`
 - `双指针`利用`i/j`考虑左右情况进行判断
+- 可以通过外层`let`设定一个写入的指针`writeIndex`,然后for循环内利用循环条件设定读取指针来实现`readIndex`双指针的形式,实现原地压缩
 
 ### Array
 
