@@ -1,4 +1,5 @@
 /**
+ * 辗转相除法
  * @param {string} str1
  * @param {string} str2
  * @return {string}

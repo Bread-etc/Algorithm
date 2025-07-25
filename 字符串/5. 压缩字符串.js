@@ -1,4 +1,5 @@
 /**
+ * 双指针
  * @param {character[]} chars
  * @return {number}
  */
