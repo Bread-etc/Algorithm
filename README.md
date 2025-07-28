@@ -10,6 +10,7 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 - `双指针`利用`i/j`考虑左右情况进行判断
 - 可以通过外层`let`设定一个写入的指针`writeIndex`,然后 for 循环内利用循环条件设定读取指针来实现`readIndex`双指针的形式,实现原地压缩
 - `双指针`中需要注意所移动的指针,仅需移动短板指针
+- 对`两字符串接近问题`,使用`Map` + `Array.from`形成数组判断两个Map的键和值,如果一样就为`接近`
 
 ### Array
 
@@ -23,6 +24,7 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 - 在`滑动窗口`问题,我们可以先实现`第一次滑动窗口的计算`,后续再使用`右指针`对后续滑动窗口来计算
 - 使用`不定长滑动窗口`时,一定要注意好判断条件,其中`双层循环嵌套`几乎是必须的
 - 寻找`数组中心下标`的时候,需要关注`左侧和leftSum`和`右侧和rightSum`其中右侧和使用前缀和数组中来减去左侧和与自身的值
+- 使用`Set`代替`Map`来对数组去重速度更快
 
 ### Dynamic planning
 
