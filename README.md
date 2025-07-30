@@ -30,4 +30,8 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 ### Stack
 
 - `Array.pop()`对空栈无影响
-- 
+- 使用`currentNum = currentNum * 10 + Number(char)`巧妙地获得多位数的值
+
+### Queue
+
+- 利用`Array.shift()`和`Array.push()`的特性实现队列的特征
