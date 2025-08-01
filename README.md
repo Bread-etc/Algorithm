@@ -35,3 +35,7 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 ### Queue
 
 - 利用`Array.shift()`和`Array.push()`的特性实现队列的特征
+
+### LinkedList
+
+- 利用`for`循环，使`head = head.next`，不断循环得到链表长度`size`的值
