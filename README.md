@@ -39,3 +39,4 @@ A collection of front-end algorithm exercises, with problems sourced from `LeetC
 ### LinkedList
 
 - 利用`for`循环，使`head = head.next`，不断循环得到链表长度`size`的值
+- 利用`双指针`来获取`odd/even`指针，然后经过移动奇数指针，再移动偶数指针来实现向下遍历
